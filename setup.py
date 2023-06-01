@@ -13,7 +13,7 @@ from setuptools import find_packages, setup, Command
 
 # Package meta-data.
 NAME = 'dbexport'
-DESCRIPTION = ''
+DESCRIPTION = 'Internal library for interacting with Products and Reviews database'
 URL = 'https://github.com/rsolovyeaws/dbexport'
 EMAIL = 'rsolovye@gmail.com'
 AUTHOR = 'RS'
@@ -108,7 +108,7 @@ setup(
     # py_modules=['mypackage'],
 
      entry_points={
-         'console_scripts': ['assault=assault.cli:cli'],
+         'console_scripts': ['dbexpoert=dbexport.cli:cli'],
      },
     install_requires=REQUIRED,
     extras_require=EXTRAS,
